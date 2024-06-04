@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: PoiretOne;
+  src: url(fonts/PoiretOne-Regular.woff);
+}
+
+@font-face {
+  font-family: Jura;
+  src: url(fonts/Jura-VariableFont_wght.woff);
+	
+	
+}
+
+@font-face {
+  font-family: LuckiestGuy;
+  src: url(fonts/LuckiestGuy-Regular.woff);
+
+}
+
+body {
+	font-family: Jura;
+	background-color: #91EBF6;
+	
+}
+
+h1 {
+	font-family: LuckiestGuy;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 3px;
+	line-height: 80px !important;
+	text-shadow: 2px 2px 4px black;
+
+}
+p {
+	font-family: Jura;
+	line-height: 1.6em;
+	text-align: justify;
+	font-weight: bold;
+}
+
+header {
+	background-color: #969EED;
+	color: white;
+	text-align: center;
+	height: 80px;
+	
+}
+
+.image {
+	background-color: white;
+	padding: 5px;
+}
+
+.intro {
+	background-color: white;
+	padding: 10px;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+	
+}
+
+.gallery {
+	margin: 10px 30px;
+}
+.texto {
+	font-size: 0.8em;
+	padding: 10px 0px;
+	
+}
+
+.item {
+	border-bottom: black solid 1px;
+	padding: 10px 5px;
+}
+
+.foot {
+	background-color: lightgreen;
+	padding: 5px;
+	text-align:center;
+}
+
+.aviso {
+	font-family: Jura;
+	background-color: lightcoral;
+	text-align:left;
+	padding: 5px;
+	line-height: 1.6em;
+}
+
+.cuerpo {
+	font-family: Jura;
+	background-color: #91EBF6;
